@@ -53,7 +53,7 @@ const Layout: React.FC<IProps> = ({
               className="mb-12 rounded"
               src={logo}
               alt={vaultName || 'Apideck Vault'}
-              style={{ maxWidth: '50%' }}
+              style={{ maxWidth: '50%', maxHeight: 80 }}
             />
           ) : (
             <div
